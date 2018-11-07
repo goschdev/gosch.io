@@ -36,15 +36,6 @@ body {
   background-color: var(--black-color);
 }
 
-.temp-logo {
-  width: 250px;
-  height: 150px;
-  display: block;
-  position: relative;
-  box-sizing: border-box;
-  border: 1px solid white;
-}
-
 /*
   Header
 */
@@ -61,6 +52,10 @@ header {
 header h1 {
   left: -999pc;
   position: absolute;
+}
+
+header .logo {
+  max-width: 50%;
 }
 
 /*
@@ -278,6 +273,10 @@ footer p {
   header .wrap {
     display: flex;
     justify-content: center;
+  }
+
+  header .logo {
+    max-width: 80%;
   }
 
   /*
