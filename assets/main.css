@@ -106,11 +106,13 @@ header .logo {
 #skills .col.left .content {
   justify-content: flex-end;
   padding-right: calc(var(--trail-size) + (var(--trail-size) / 2));
+  margin-top: calc(var(--trail-size) / 2);
 }
 
 #skills .col.right .content {
   justify-content: flex-start;
   padding-left: calc(var(--trail-size) + (var(--trail-size) / 2));
+  margin-top: calc(var(--trail-size) / 2);
 }
 
 #skills .col.left .sub-title-2 {
@@ -127,6 +129,10 @@ header .logo {
 
 #skills .col.right .sub-title-2::after {
   left: calc(var(--trail-size) * -1);
+}
+
+#skills .row {
+  margin: calc(var(--trail-size) / 2) 0;
 }
 
 #skills .title-with-bg {
@@ -147,7 +153,7 @@ header .logo {
 #skills .sub-title-2 {
   font-size: 35px;
   font-weight: 600;
-  margin: calc(var(--trail-size) / 2) 0;
+  margin: 0;
 }
 
 #skills .sub-title-2::after {
